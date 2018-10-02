@@ -20,10 +20,13 @@
           font-size: 1.2rem;
         }
       }
+      .container-fluid {
+        max-width: 1024px;
+      }
     </style>
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <div class="mt-4 text-center">
         <img src="./img/logo.svg" class="mb-3" width="250">
         <h1 class="font-weight-bold">Mistrovství ČR ve šprtci</h1>
@@ -54,18 +57,18 @@
 
       <div class="mt-4">
         <div class="row">
-          <div class="col-sm-9">
+          <div class="col-md-9">
             <h2>Ubytování a občersvení</h2>
             <p>Účastníkům a&nbsp;náhradníkům budou zajištěny dvě noci (pá/so a&nbsp;so/ne) v&nbsp;<a href="http://www.sluzbyboskovice.cz/turisticka-ubytovna-info">Penzionu Ubytovna Služeb Boskovice</a>, sobotní snídaně a&nbsp;večeře. Z toho <strong>vše kromě jedné noci hradí pořadatel</strong>. Ubytovna je od místa konání vzdálená cca&nbsp;1.5&nbsp;km.</p>
             <p>Ubytování bude nutné předem objednat, registrační formulář připravujeme a bude zveřejněn zde na webu.</p>
             <p>Během soutěže i&nbsp;po jejím skončení bude přímo v&nbsp;místě konání k&nbsp;dispozici <strong>stánek s&nbsp;občersvením</strong>.</p>
 
             <h2>Odměny</h2>
-            <p>Kromě tradičních <strong>pohárů pro tři nejlepší soutěžící ve všech kategoriích</strong> budou připraveny ve spolupráci s <a href="https://www.jednotabce.cz/">Jednotou COOP Boskovice</a> <strong>dárkové koše pro vítěze a dártkové tašky pro všechny účastníky</strong>.</p>
+            <p>Kromě tradičních <strong>pohárů pro tři nejlepší soutěžící ve všech kategoriích</strong> budou připraveny ve spolupráci s&nbsp;<a href="https://www.jednotabce.cz/">Jednotou COOP Boskovice</a> <strong>dárkové koše pro vítěze a dárkové tašky pro všechny účastníky</strong>.</p>
             <p>Při vyhlášení výsledků budou také předány poháry pro vítěze celoročně konaných soutěží (Český Pohár, První liga družstev, Druhá liga družstev apod.).</p>
 
             <h2>Harmonogram</h2>
-            <p>V 9&nbsp;hod začneme registrovat účastníky, v 10&nbsp;hod Mistrovství slavnostně zahájíme, v 10.15 začnou soutěže. Ty budou trvat do cca 18&nbsp;hod, následovat bude slavnostní vyhlášení výsledků a v cca 19&nbsp;hod večeře. Zainteresovaní zasednou v cca 20&nbsp;hod na Valnou hromadu.</p>
+            <p>V 9&nbsp;hod začneme registrovat účastníky, v 10&nbsp;hod Mistrovství slavnostně zahájíme, v 10.15 začnou soutěže. Ty budou trvat do 18&nbsp;hod, následovat bude slavnostní vyhlášení výsledků a v 19&nbsp;hod večeře. Zainteresovaní zasednou v 20&nbsp;hod na Valnou hromadu.</p>
             <p>Vše se koná pod jednou střechou v Sokolovně. Podrobnější harmonogram zveřejníme zde na webu.</p>
 
             <h2>Kontakt</h2>
@@ -75,41 +78,60 @@
               <a href="mailto:roman.canal@gmail.com">roman.canal@gmail.com</a>
             </p>
           </div>
-          
-          <div class="col-sm-3 text-center">
+
+          <div class="col-md-3 text-center">
             <h2>Partneři</h2>
-            <p>
-              <figure class="figure">
-                <img src="./img/boskovice.png" class="w-50 mb-1">
-                <figcaption class="figure-caption">
-                  <a href="http://www.boskovice.cz/">Město Boskovice</a>
-                </figcaption>
-              </figure>
-              <figure class="figure">
-                <img src="./img/coop.gif" class="w-75 mb-1">
-                <figcaption class="figure-caption">
-                  <a href="https://www.jednotabce.cz/">Jednota Coop Boskovice</a>
-                </figcaption>
-              </figure>
-              <figure class="figure">
-                <img src="./img/stavodos.png" class="w-75 mb-1">
-                <figcaption class="figure-caption">
-                  <a href="http://www.stavodos.cz/">Stavodos s.r.o.</a>
-                </figcaption>
-              </figure>
-              <figure class="figure">
-                <img src="./img/svc.gif" class="w-50 mb-1">
-                <figcaption class="figure-caption">
-                  <a href="https://www.svcboskovice.cz/">Středisko volného času Boskovice</a>
-                </figcaption>
-              </figure>
-              <figure class="figure">
-                <img src="./img/jmk.png" class="w-75 mb-1">
-                <figcaption class="figure-caption">
-                  <a href="https://www.kr-jihomoravsky.cz/">Jihomoravský kraj</a>
-                </figcaption>
-              </figure>
-            </p>
+
+            <div class="row align-items-center">
+              <div class="col-6 col-md-12">
+                <figure class="figure">
+                  <img src="./img/boskovice.png" class="w-50 mb-1">
+                  <figcaption class="figure-caption">
+                    <a href="http://www.boskovice.cz/">Město Boskovice</a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="col-6 col-md-12">
+                <figure class="figure">
+                  <img src="./img/coop.gif" class="w-75 mb-1">
+                  <figcaption class="figure-caption">
+                    <a href="https://www.jednotabce.cz/">Jednota Coop Boskovice</a>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <div class="row align-items-center">
+              <div class="col-6 col-md-12">
+                <figure class="figure">
+                  <img src="./img/stavodos.png" class="w-75 mb-1">
+                  <figcaption class="figure-caption">
+                    <a href="http://www.stavodos.cz/">Stavodos s.r.o.</a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="col-6 col-md-12">
+                <figure class="figure">
+                  <img src="./img/svc.gif" class="w-50 mb-1">
+                  <figcaption class="figure-caption">
+                    <a href="https://www.svcboskovice.cz/">Středisko volného času Boskovice</a>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <div class="row align-items-center">
+              <div class="col-6 col-md-12">
+                <figure class="figure">
+                  <img src="./img/jmk.png" class="w-75 mb-1">
+                  <figcaption class="figure-caption">
+                    <a href="https://www.kr-jihomoravsky.cz/">Jihomoravský kraj</a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="col-6 col-md-12">
+              </div>
+            </div>
           </div>
         </div>
       </div>
