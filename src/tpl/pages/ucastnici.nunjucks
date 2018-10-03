@@ -1,0 +1,482 @@
+{% set activePage = "ucastnici" %}
+
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+  <h2>Účastníci Mistrovství</h2>
+  <p>Účast na MČR ve šprtci si hráč vybojuje celoročním sbíráním bodů do Českého poháru na regionálních i&nbsp;celorepublikových turnajích jednotlivců. Z nich se kvalifikuje 32 nejlepších můžů, 8 žen, 8 juniorů, 8 starších a 6 mladších záků.</p>
+  <p>Průběžné pořadí Českého poháru ke dni 2. 10. 2018 vypadá následovně.</p>
+
+  <ul class="nav nav-tabs" id="participantTab" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" id="men-tab" data-toggle="tab" href="#men" role="tab" aria-controls="home" aria-selected="true">Muži</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="women-tab" data-toggle="tab" href="#women" role="tab" aria-controls="profile" aria-selected="false">Ženy</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="juniors-tab" data-toggle="tab" href="#juniors" role="tab" aria-controls="profile" aria-selected="false">Junioři</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="older-pupils-tab" data-toggle="tab" href="#older-pupils" role="tab" aria-controls="profile" aria-selected="false">Starší žáci</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="younger-pupils-tab" data-toggle="tab" href="#younger-pupils" role="tab" aria-controls="profile" aria-selected="false">Mladší žáci</a>
+    </li>
+  </ul>
+
+  <div class="tab-content" id="participantTabContent">
+    <div class="tab-pane fade show active" id="men" role="tabpanel" aria-labelledby="men-tab">
+      <div class="table-responsive">
+        <table class="table table-striped table-sm table-borderless">
+          <thead>
+            <tr>
+              <th align="right">Pořadí</th>
+              <th>Jméno</th>
+              <th>Klub</th>
+              <th align="right">Body</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="right">1.</td>
+              <td>NAKLADAL Jiri</td>
+              <td>BHC Dragons Modrice</td>
+              <td align="right">1050</td>
+            </tr>
+            <tr>
+              <td align="right">2.</td>
+              <td>DAVID Jakub</td>
+              <td><strong>BHK Ice Queen Boskovice</strong></td>
+              <td align="right">938</td>
+            </tr>
+            <tr>
+              <td align="right">3.</td>
+              <td>PROCHAZKA Josef ml.</td>
+              <td><strong>BHK Ice Queen Boskovice</strong></td>
+              <td align="right">879</td>
+            </tr>
+            <tr>
+              <td align="right">4.</td>
+              <td>HENYCH Petr</td>
+              <td>BHC StarColor Most</td>
+              <td align="right">866</td>
+            </tr>
+            <tr>
+              <td align="right">5.</td>
+              <td>VRANA Martin</td>
+              <td>THE OREL BOHUNICE</td>
+              <td align="right">775</td>
+            </tr>
+            <tr>
+              <td align="right">6.</td>
+              <td>VONDAL Vit</td>
+              <td><strong>BHK Ice Queen Boskovice</strong></td>
+              <td align="right">741</td>
+            </tr>
+            <tr>
+              <td align="right">7.</td>
+              <td>FERUGA Bohumil</td>
+              <td><strong>BHK Ice Queen Boskovice</strong></td>
+              <td align="right">739</td>
+            </tr>
+            <tr>
+              <td align="right">8.</td>
+              <td>KANA Simon</td>
+              <td>Gunners Breclav</td>
+              <td align="right">726</td>
+            </tr>
+            <tr>
+              <td align="right">9.</td>
+              <td>SKORPIK Miroslav</td>
+              <td>BHC Dragons Modrice</td>
+              <td align="right">719</td>
+            </tr>
+            <tr>
+              <td align="right">10.</td>
+              <td>PROCHAZKA Ondrej</td>
+              <td><strong>BHK Ice Queen Boskovice</strong></td>
+              <td align="right">705</td>
+            </tr>
+            <tr>
+              <td align="right">11.</td>
+              <td>TIRPAK Robert</td>
+              <td>BHC Dragons Modrice</td>
+              <td align="right">675</td>
+            </tr>
+            <tr>
+              <td align="right">12.</td>
+              <td>KOCAB Jan</td>
+              <td>Gunners Breclav</td>
+              <td align="right">652</td>
+            </tr>
+            <tr>
+              <td align="right">13.</td>
+              <td>KOLODEJ Pavel</td>
+              <td>Sprtmejkri Ostrava</td>
+              <td align="right">612</td>
+            </tr>
+            <tr>
+              <td align="right">14.</td>
+              <td>PURKET Patrik</td>
+              <td>BHC StarColor Most</td>
+              <td align="right">607</td>
+            </tr>
+            <tr>
+              <td align="right">15.</td>
+              <td>OSLEJSEK Jakub</td>
+              <td><strong>BHK Ice Queen Boskovice</strong></td>
+              <td align="right">602</td>
+            </tr>
+            <tr>
+              <td align="right">16.</td>
+              <td>SUSTACEK Ladislav</td>
+              <td>Gunners Breclav</td>
+              <td align="right">601</td>
+            </tr>
+            <tr>
+              <td align="right">17.</td>
+              <td>LUDVIK Vojtech</td>
+              <td>BHL Zdar nad Sazavou</td>
+              <td align="right">595</td>
+            </tr>
+            <tr>
+              <td align="right">18.</td>
+              <td>PROCHAZKA Jaromir</td>
+              <td>SHL Brno</td>
+              <td align="right">593</td>
+            </tr>
+            <tr>
+              <td align="right">19.</td>
+              <td>FRANEK Michal</td>
+              <td>THE OREL BOHUNICE</td>
+              <td align="right">590</td>
+            </tr>
+            <tr>
+              <td align="right">20.</td>
+              <td>FEDIC Lukas</td>
+              <td>Praha</td>
+              <td align="right">588</td>
+            </tr>
+            <tr>
+              <td align="right">21.</td>
+              <td>LOUCKA Matous</td>
+              <td>Gunners Breclav</td>
+              <td align="right">587</td>
+            </tr>
+            <tr>
+              <td align="right">22.</td>
+              <td>BELOHOUBEK Pavel</td>
+              <td>BHC Dragons Modrice</td>
+              <td align="right">579</td>
+            </tr>
+            <tr>
+              <td align="right">23.</td>
+              <td>BOHACEK Martin</td>
+              <td>BHC Dragons Modrice</td>
+              <td align="right">574</td>
+            </tr>
+            <tr>
+              <td align="right">24.</td>
+              <td>BEDNAR Martin</td>
+              <td>BHL Zdar nad Sazavou</td>
+              <td align="right">558</td>
+            </tr>
+            <tr>
+              <td align="right">25.</td>
+              <td>JUSTRA Michal</td>
+              <td>BHC StarColor Most</td>
+              <td align="right">556</td>
+            </tr>
+            <tr>
+              <td align="right">26.</td>
+              <td>ALEXANDROV Pavel</td>
+              <td>Sprtmejkri Ostrava</td>
+              <td align="right">548</td>
+            </tr>
+            <tr>
+              <td align="right">27.</td>
+              <td>FRANKL Jaroslav</td>
+              <td>BHC Dragons Modrice</td>
+              <td align="right">527</td>
+            </tr>
+            <tr>
+              <td align="right">28.</td>
+              <td>MARTINCIC Michal</td>
+              <td>THE OREL BOHUNICE</td>
+              <td align="right">526</td>
+            </tr>
+            <tr>
+              <td align="right">29.</td>
+              <td>FIALA Andrej</td>
+              <td>Gunners Breclav</td>
+              <td align="right">514</td>
+            </tr>
+            <tr>
+              <td align="right">30.</td>
+              <td>VITAMVAS Tomas</td>
+              <td>BHL Zdar nad Sazavou</td>
+              <td align="right">498</td>
+            </tr>
+            <tr>
+              <td align="right">31.</td>
+              <td>TOMANDL Michal</td>
+              <td>BHC Dragons Modrice</td>
+              <td align="right">493</td>
+            </tr>
+            <tr>
+              <td align="right">32.</td>
+              <td>FRYBA Dalibor</td>
+              <td>BHC StarColor Most</td>
+              <td align="right">481</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="women" role="tabpanel" aria-labelledby="women-tab">
+      <div class="table-responsive">
+        <table class="table table-striped table-sm table-borderless">
+          <thead>
+            <tr>
+              <th align="right">Pořadí</th>
+              <th>Jméno</th>
+              <th>Klub</th>
+              <th align="right">Body</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="right">1.</td>
+              <td>ZAJÍČKOVÁ Petra</td>
+              <td><strong>BHK Ice Queen Boskovice</strong></td>
+              <td align="right">798</td>
+            </tr>
+            <tr>
+              <td align="right">2.</td>
+              <td>GRABINSKÁ Michaela</td>
+              <td>Šprtmejkři Ostrava</td>
+              <td align="right">597</td>
+            </tr>
+            <tr>
+              <td align="right">3.</td>
+              <td>GRABINSKÁ Veronika</td>
+              <td>Šprtmejkři Ostrava</td>
+              <td align="right">406</td>
+            </tr>
+            <tr>
+              <td align="right">4.</td>
+              <td>KALENDOVÁ Nataša</td>
+              <td>BHC TJ Sokol Bohumín</td>
+              <td align="right">353</td>
+            </tr>
+            <tr>
+              <td align="right">5.</td>
+              <td>KABRDOVÁ Marcela</td>
+              <td>BHL Žďár nad Sázavou</td>
+              <td align="right">216</td>
+            </tr>
+            <tr>
+              <td align="right">6.</td>
+              <td>CHYBOVÁ Hana</td>
+              <td>Hamry nad Sázavou</td>
+              <td align="right">173</td>
+            </tr>
+            <tr>
+              <td align="right">7.</td>
+              <td>ŽVAKOVÁ Kamila</td>
+              <td>BHC Dobrá</td>
+              <td align="right">121</td>
+            </tr>
+            <tr>
+              <td align="right">8.</td>
+              <td>VANČUROVÁ Milada</td>
+              <td>Prague NHL</td>
+              <td align="right">120</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="juniors" role="tabpanel" aria-labelledby="juniors-tab">
+      <div class="table-responsive">
+        <table class="table table-striped table-sm table-borderless">
+          <thead>
+            <tr>
+              <th align="right">Pořadí</th>
+              <th>Jméno</th>
+              <th>Klub</th>
+              <th align="right">Body</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="right">1.</td>
+              <td>DOHNAL Jiří</td>
+              <td>BHC Dobrá</td>
+              <td align="right">684</td>
+            </tr>
+            <tr>
+              <td align="right">2.</td>
+              <td>BRAUNER Vojtěch</td>
+              <td>Gunners Břeclav</td>
+              <td align="right">672</td>
+            </tr>
+            <tr>
+              <td align="right">3.</td>
+              <td>TIRPÁK Patrik</td>
+              <td>FLUKE KOHOUTOVICE</td>
+              <td align="right">588</td>
+            </tr>
+            <tr>
+              <td align="right">4.</td>
+              <td>ŘEHOŘ Jakub</td>
+              <td>BHC Dragons Modřice</td>
+              <td align="right">481</td>
+            </tr>
+            <tr>
+              <td align="right">5.</td>
+              <td>ŠUSTR Adam</td>
+              <td>BHL Žďár nad Sázavou</td>
+              <td align="right">451</td>
+            </tr>
+            <tr>
+              <td align="right">6.</td>
+              <td>VITULA Josef</td>
+              <td>BHC Dragons Modřice</td>
+              <td align="right">424</td>
+            </tr>
+            <tr>
+              <td align="right">7.</td>
+              <td>FRAJT Antonín</td>
+              <td><strong>BHK Ice Queen Boskovice</strong></td>
+              <td align="right">399</td>
+            </tr>
+            <tr>
+              <td align="right">8.</td>
+              <td>HADAŠČOK Petr</td>
+              <td>BHC Dobrá</td>
+              <td align="right">367</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="older-pupils" role="tabpanel" aria-labelledby="older-pupils-tab">
+      <div class="table-responsive">
+        <table class="table table-striped table-sm table-borderless">
+          <thead>
+            <tr>
+              <th align="right">Pořadí</th>
+              <th>Jméno</th>
+              <th>Klub</th>
+              <th align="right">Body</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="right">1.</td>
+              <td>STOHANZL Erik</td>
+              <td>Gunners Břeclav</td>
+              <td align="right">639</td>
+            </tr>
+            <tr>
+              <td align="right">2.</td>
+              <td>KALINA Tomáš</td>
+              <td>BHL Žďár nad Sázavou</td>
+              <td align="right">535</td>
+            </tr>
+            <tr>
+              <td align="right">3.</td>
+              <td>DOLEŽAL Jan</td>
+              <td>Gunners Břeclav</td>
+              <td align="right">469</td>
+            </tr>
+            <tr>
+              <td align="right">4.</td>
+              <td>VANČÍK Filip</td>
+              <td>BHC TJ Sokol Bohumín</td>
+              <td align="right">458</td>
+            </tr>
+            <tr>
+              <td align="right">5.</td>
+              <td>MATUŠČÍN Jan</td>
+              <td>BHC StarColor Most</td>
+              <td align="right">441</td>
+            </tr>
+            <tr>
+              <td align="right">6.</td>
+              <td>MARTINKA Roman</td>
+              <td>Gunners Břeclav</td>
+              <td align="right">303</td>
+            </tr>
+            <tr>
+              <td align="right">7.</td>
+              <td>VYMYSLICKÝ Tomáš</td>
+              <td>Gunners Břeclav</td>
+              <td align="right">259</td>
+            </tr>
+            <tr>
+              <td align="right">8.</td>
+              <td>OTÁHAL Tomáš</td>
+              <td>BHC Dragons Modřice</td>
+              <td align="right">244</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="younger-pupils" role="tabpanel" aria-labelledby="younger-pupils-tab">
+      <div class="table-responsive">
+        <table class="table table-striped table-sm table-borderless">
+          <thead>
+            <tr>
+              <th align="right">Pořadí</th>
+              <th>Jméno</th>
+              <th>Klub</th>
+              <th align="right">Body</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="right">1.</td>
+              <td>ŠÁLEK Michal</td>
+              <td>ZŠ Břeclav-Slovácká</td>
+              <td align="right">388</td>
+            </tr>
+            <tr>
+              <td align="right">2.</td>
+              <td>PADĚLEK Aleš</td>
+              <td>BHC TJ Sokol Bohumín</td>
+              <td align="right">298</td>
+            </tr>
+            <tr>
+              <td align="right">3.</td>
+              <td>DAVID Šimon</td>
+              <td><strong>BHK Ice Queen Boskovice</strong></td>
+              <td align="right">220</td>
+            </tr>
+            <tr>
+              <td align="right">4.</td>
+              <td>MATURA Ondřej</td>
+              <td>Netopýři Most</td>
+              <td align="right">122</td>
+            </tr>
+            <tr>
+              <td align="right">5.</td>
+              <td>SLÁDEK František</td>
+              <td>ZŠ Hamry nad Sázavou</td>
+              <td align="right">106</td>
+            </tr>
+            <tr>
+              <td align="right">6.</td>
+              <td>MALINKOVIČ Martin</td>
+              <td>Gunners Břeclav</td>
+              <td align="right">96</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+{% endblock %}

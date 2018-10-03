@@ -1,0 +1,11 @@
+<ul class="mt-3 nav nav-pills justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link {%if activePage == 'index' %}active{% endif %}" href="./">Základní informace</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link {%if activePage == 'ucastnici' %}active{% endif %}" href="./ucastnici.html">Účastníci</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link {%if activePage == 'historie' %}active{% endif %}" href="./historie.html">Historie vítězů</a>
+  </li>
+</ul>

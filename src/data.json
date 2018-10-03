@@ -1,0 +1,29 @@
+{
+  "partners": [
+    {
+      "image": "boskovice.png",
+      "url": "http://www.boskovice.cz/",
+      "name": "Město Boskovice"
+    },
+    {
+      "image": "coop.gif",
+      "url": "https://www.jednotabce.cz/",
+      "name": "Jednota Coop Boskovice"
+    },
+    {
+      "image": "stavodos.png",
+      "url": "http://www.stavodos.cz/",
+      "name": "Stavodos s.r.o."
+    },
+    {
+      "image": "svc.gif",
+      "url": "https://www.svcboskovice.cz/",
+      "name": "Středisko volného času Boskovice"
+    },
+    {
+      "image": "jmk.png",
+      "url": "https://www.kr-jihomoravsky.cz/",
+      "name": "Jihomoravský kraj"
+    }
+  ]
+}
