@@ -1,7 +1,13 @@
 {
   "partners": [
     {
+      "image": "jmk.png",
+      "url": "https://www.kr-jihomoravsky.cz/",
+      "name": "Jihomoravský kraj"
+    },
+    {
       "image": "boskovice.png",
+      "imageClass": "w-75",
       "url": "http://www.boskovice.cz/",
       "name": "Město Boskovice"
     },
@@ -19,11 +25,6 @@
       "image": "svc.gif",
       "url": "https://www.svcboskovice.cz/",
       "name": "Středisko volného času Boskovice"
-    },
-    {
-      "image": "jmk.png",
-      "url": "https://www.kr-jihomoravsky.cz/",
-      "name": "Jihomoravský kraj"
     }
   ]
 }
