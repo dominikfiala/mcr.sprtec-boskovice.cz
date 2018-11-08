@@ -6,12 +6,6 @@
       "name": "Jihomoravský kraj"
     },
     {
-      "image": "boskovice.png",
-      "imageClass": "w-75",
-      "url": "http://www.boskovice.cz/",
-      "name": "Město Boskovice"
-    },
-    {
       "image": "coop.gif",
       "url": "https://www.jednotabce.cz/",
       "name": "Jednota Coop Boskovice"
@@ -22,9 +16,20 @@
       "name": "Stavodos s.r.o."
     },
     {
+      "image": "balon.png",
+      "url": "https://www.balon.cz/",
+      "name": "Vyhlídkové lety balónem Balon.cz"
+    },
+    {
       "image": "svc.gif",
       "url": "https://www.svcboskovice.cz/",
       "name": "Středisko volného času Boskovice"
+    },
+    {
+      "image": "boskovice.png",
+      "imageClass": "w-75",
+      "url": "http://www.boskovice.cz/",
+      "name": "Město Boskovice"
     }
   ]
 }
